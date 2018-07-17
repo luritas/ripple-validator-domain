@@ -54,3 +54,11 @@ default path: ~/ssl/_domain_private.key
 
 # validator key
 default path: ~/.ripple/validator-keys.json
+
+
+# Run rippled as a Validator
+[Document](https://developers.ripple.com/run-rippled-as-a-validator.html)
+
+if you submit this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScszfq7rRLAfArSZtvitCyl-VFA9cNcdnXLFjURsdCQ3gHW7w/viewform) with your validator's information, you can find your domain on [XRP Charts](https://xrpcharts.ripple.com/#/validators) after 1 ~ 3 days.
+
+
