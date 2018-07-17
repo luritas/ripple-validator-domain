@@ -1,7 +1,8 @@
 # install
 ### rippled
-```
-[Full Document](https://developers.ripple.com/install-rippled.html)
+
+[Rippled install Full Document](https://developers.ripple.com/install-rippled.html) 
+
 
 Installation on *Ubuntu* with alien
 This section assumes that you are using Ubuntu 15.04 or later.
@@ -43,7 +44,7 @@ Start the rippled service
 $ sudo systemctl start rippled.service
 ```
 
-### packages
+packages
 ```
 $ sudo apt-get install jq
 ```
