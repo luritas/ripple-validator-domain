@@ -1,5 +1,28 @@
-# install
+# Quick Start
+```
+$ git clone https://github.com/luritas/ripple-validator-domain.git && cd ripple-validator-domain
+$ chmod 766 validator.sh
+$ ./validator.sh $YOUR_DOMAIN
+```
+
+
+# Reqruied
+
+#### packages
+```
+$ sudo apt-get install jq
+```
+
+#### private key  
+default path: ~/ssl/_domain_private.key
+
+#### validator key  
+default path: ~/.ripple/validator-keys.json
+
 ### rippled
+
+
+# rippled install
 
 [Rippled install Full Document](https://developers.ripple.com/install-rippled.html) 
 
@@ -44,16 +67,6 @@ Start the rippled service
 $ sudo systemctl start rippled.service
 ```
 
-packages
-```
-$ sudo apt-get install jq
-```
-
-# private key
-default path: ~/ssl/_domain_private.key
-
-# validator key
-default path: ~/.ripple/validator-keys.json
 
 
 # Run rippled as a Validator
